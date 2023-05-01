@@ -5,20 +5,19 @@
 
 
 //using while loop
-
 #include<stdio.h>
 #include<conio.h>
 main()
 {
-    int i=1,j;
-    while(i<=4)
-    {j=1;
-        while(j<=i)
+    int r=1,c;
+    while (r<=4)
+    {c=1;
+        while(c<=r)
         {
             printf("*");
-            j++;
+            c++;
         }
         printf("\n");
-        i++;
+        r++;
     }
 }
