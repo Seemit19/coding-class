@@ -1,25 +1,23 @@
 //Swapping two numbers using third variable
  
  
+ 
 #include<iostream>
-
 using namespace std;
-
- main()
+int main()
 {
-    float a,b;
-
-    cout<<"Enter two number a = ";
+    int a,b,c;
+    cout<<"Enter first number that is a=";
     cin>>a;
-    cout<<"b = ";
+    cout<<"Enter second number that is b=";
     cin>>b;
+    cout<<endl;
+    cout<<endl;
 
-    if (a==b)
-    {
-        cout<<endl <<"----Numbers are equal----" <<endl <<endl;
-    }
-    else
-    {
-        cout<<endl <<"----Numbers are not equal----" <<endl <<endl;
-    }
+    c=a;
+    a=b;
+    b=c;
+    
+    cout<<"Swapped number : "<<endl <<"a=" <<a <<"  and " <<" b=" << b <<endl;
+    return 0;
 }
