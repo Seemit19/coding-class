@@ -1,9 +1,3 @@
-*
-**
-***
-****
-
-
 
 //using if condition.
 #include<stdio.h>
